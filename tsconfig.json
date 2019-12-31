@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es2017",
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": false,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strict": true,
+    "outDir": "dist",
+    "lib": ["es6", "es7", "es2017", "dom"],
+    "typeRoots": [
+      "/node_modules/@types",
+      "/types",
+      "/packages/logic/types",
+      "/packages/uikit/types"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules",
+    "packages/logic/dist",
+    "packages/logic/build",
+    "packages/logic/node_modules",
+    "packages/uikit/dist",
+    "packages/uikit/build",
+    "packages/uikit/node_modules"
+  ]
+}
